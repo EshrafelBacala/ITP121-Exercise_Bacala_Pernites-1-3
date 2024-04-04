@@ -36,7 +36,7 @@
         <h2>Factorial Calculation and Student Names</h2>
 
         <?php
-        // Factorial Calculation function
+   
         function factorial($n) {
             if ($n <= 1) {
                 return 1;
@@ -45,15 +45,13 @@
             }
         }
 
-        // Factorial Calculation
-        $inputNumber = 5; // Example input number
+        $inputNumber = 5;
         $result = factorial($inputNumber);
         echo "<p>Factorial of $inputNumber is: $result</p>";
 
-        // Array of student names
         $studentNames = ["Alice", "Bob", "Charlie", "David", "Eva"];
 
-        // Printing student names
+        
         echo "<h3>Student Names:</h3>";
         foreach ($studentNames as $name) {
             echo "<p>$name</p>";
