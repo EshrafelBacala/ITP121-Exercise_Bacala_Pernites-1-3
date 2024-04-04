@@ -53,7 +53,7 @@
     <div class="container">
         <h2>Data Types and Age Classification</h2>
         <?php
-            // Variable declaration and arithmetic operations
+            
             $stringVar = "Hello";
             $integerVar = 10;
             $floatVar = 5.5;
@@ -63,7 +63,7 @@
 
             
 
-            // Age classification form
+           
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $userAge = $_POST['age'];
                 if ($userAge < 18) {
