@@ -86,16 +86,16 @@
             <input type="submit" value="Login">
         </form>
         <?php
-            // PHP script to validate form data
+
             if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $username = $_POST['username'];
                 $password = $_POST['password'];
 
-                // Sample username and password for demonstration
+               
                 $validUsername = "user";
                 $validPassword = "password";
 
-                // Check if username and password match
+               
                 if ($username === $validUsername && $password === $validPassword) {
                     echo "<p class='message success'>Login successful. Welcome, $username!</p>";
                 } else {
